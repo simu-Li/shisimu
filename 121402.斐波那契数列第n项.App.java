@@ -11,7 +11,7 @@ public static void main(String[] args) {
 		        System.out.println("第"+i+"项为："+getNum(i));
 		    }
 		    
-			private static int getNum(int i){
+			public static int getNum(int i){
 		        if (i<=0){
 		            return -1;
 		        }else if (i==1||i==2){
